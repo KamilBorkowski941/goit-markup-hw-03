@@ -12,7 +12,7 @@
   --productborder: #eeeeee;
 }
 
-/* Global styles used throughout whole website */
+/* Global styles used throughout whole website ---------------------*/
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
@@ -24,6 +24,11 @@ body {
   padding: 0;
   display: block;
 }
+.whole-page-main {
+  background-color: var(--white);
+  width: 1600px;
+  margin: 0 auto;
+}
 .whole-page {
   width: 1600px;
   margin: 0 auto;
@@ -32,6 +37,15 @@ body {
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+.no-margin {
+  margin: 0;
+}
+.footer-type:hover,
+.footer-type:focus,
+.text-blue:hover,
+.text-blue:focus {
+  color: var(--blue);
 }
 .header {
   align-items: center;
@@ -42,15 +56,6 @@ body {
 }
 header {
   display: block;
-}
-.no-margin {
-  margin: 0;
-}
-.no-padding {
-  padding: 0;
-}
-.center {
-  justify-content: center;
 }
 .logo-style {
   font-family: "Raleway";
@@ -63,17 +68,17 @@ header {
 .text-blue {
   color: var(--blue);
 }
-.nav-style {
-  gap: 46px;
-  line-height: 1.2;
-  padding: 0;
-}
 .link-style {
   color: var(--notblack);
   font-weight: 500;
 }
 .nobull {
   list-style-type: none;
+}
+.nav-style {
+  gap: 46px;
+  line-height: 1.2;
+  padding: 0;
 }
 .nav-list {
   display: flex;
@@ -96,9 +101,6 @@ header {
 .header-separator {
   border-bottom: var(--lightcream) solid 1px;
 }
-
-/* Class&Styles for header section + links + logo */
-
 .top-section {
   background-color: var(--darkgrey);
   color: var(--white);
@@ -129,7 +131,7 @@ header {
   font-size: 16px;
 }
 
-/* Top web section + order button */
+/* Top web section + order button----------------------------------------- */
 
 .our-services {
   align-items: center;
@@ -173,6 +175,12 @@ header {
   width: 270px;
   margin: 0;
 }
+.center {
+  justify-content: center;
+}
+.no-padding {
+  padding: 0;
+}
 div {
   display: block;
 }
@@ -202,7 +210,7 @@ div {
   cursor: pointer;
 }
 
-/* Button + style box + pointer + */
+/* Button + style box + pointer --------------------------------------------*/
 
 .our-crew-background {
   background-color: var(--notwhite);
@@ -240,7 +248,7 @@ div {
   margin: 0;
 }
 
-/* Crew part style  */
+/* Crew part style  ----------------------------------------------------------*/
 
 .product-portfolio {
   display: flex;
@@ -274,7 +282,7 @@ div {
   line-height: 1.88;
 }
 
-/* Product+portfolio style */
+/* Product+portfolio style --------------------------------------------*/
 
 .footer {
   width: 100%;
@@ -306,10 +314,5 @@ address {
 .footer-links-li-margin {
   margin: 9px 0 9px 0;
 }
-.footer-links:hover,
-.footer-links:focus,
-.text-blue:hover,
-.text-blue:focus {
-  color: var(--blue);
-}
-/* footer style> logo + adres + tel+email */
+
+/* footer style> logo + adres + tel+email ----------------------------------*/
