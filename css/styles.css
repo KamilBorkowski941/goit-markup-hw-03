@@ -22,7 +22,6 @@ body {
   letter-spacing: 0.03em;
   margin: 0;
   padding: 0;
-  display: block;
 }
 .whole-page-main {
   background-color: var(--white);
@@ -53,9 +52,6 @@ body {
   flex-direction: row;
   padding: 25px 0 24px 0;
   display: flex;
-}
-header {
-  display: block;
 }
 .logo-style {
   font-family: "Raleway";
