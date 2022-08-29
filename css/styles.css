@@ -23,10 +23,28 @@ body {
   margin: 0;
   padding: 0;
 }
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .whole-page-main {
   background-color: var(--white);
   width: 1600px;
   margin: 0 auto;
+}
+
+.section {
+  padding: 94px 0;
+}
+.section-portfolio {
+  padding: 50px 0 94px 0;
+}
+.section-buttons {
+  padding: 94px 0 0 0;
+}
+.section-about-us {
+  padding: 94px 0 0 0;
 }
 .whole-page {
   width: 1600px;
@@ -95,7 +113,7 @@ body {
   text-decoration: none;
 }
 .header-separator {
-  border-bottom: var(--lightcream) solid 1px;
+  border-bottom: solid 1px var(--lightcream);
 }
 .top-section {
   background-color: var(--darkgrey);
@@ -132,7 +150,6 @@ body {
 .our-services {
   align-items: center;
   flex-direction: column;
-  padding: 94px 0;
 }
 .our-services-list {
   display: flex;
@@ -140,20 +157,18 @@ body {
   gap: 30px;
   list-style: none;
   margin: 0;
-  justify-content: center;
+  justify-content: space-between;
 }
 .content {
   display: flex;
   list-style: none;
   flex-direction: row;
-  margin: 94px 0 0 0;
   gap: 30px;
   justify-content: center;
 }
 .section-header {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.166666666666667;
   text-align: center;
   color: var(--notblack);
   margin: 0px 0 50px 0;
@@ -184,7 +199,6 @@ div {
   display: flex;
   justify-content: center;
   gap: 8px;
-  margin-top: 94px;
   list-style: none;
 }
 .button-type {
@@ -210,7 +224,6 @@ div {
 
 .our-crew-background {
   background-color: var(--notwhite);
-  padding: 94px 0;
 }
 .our-crew {
   align-items: center;
@@ -250,8 +263,6 @@ div {
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
-  margin-top: 50px;
-  margin-bottom: 94px;
   list-style: none;
 }
 .product-part {
